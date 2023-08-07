@@ -1,0 +1,25 @@
+mkdir "Abdallah Mohammed"
+cd "Abdallah Mohammed"
+mkdir Documents
+cd Documents
+touch file1.txt file2.txt file3.txt
+ls
+touch .hidden_file
+ls -a
+nano file1.txt
+cat file1.txt
+cd .. <I am already in the Documents directory>
+mkdir "-"
+cd ./-
+cd ../..
+cp -r Documents My_Documents
+ls
+cd Documents
+ls -a
+cat .hidden_file
+mv file1.txt file2.txt ~/"Abdallah Mohammed"/
+cd ..
+ls
+cd ..
+rm -r "Abdallah Mohammed"
+ls
