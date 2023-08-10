@@ -1,0 +1,18 @@
+cd Downloads
+ls
+unzip Updated-Task-02.zip
+ls
+cd Updated-Task-02.zip
+ls
+cat README.txt
+ls -a
+tar -xf .level-1.tar
+ls -a
+cd .level-1
+ls
+cat README.txt
+file level-2
+tar -xf level-2
+ls
+cd level-2
+ls
