@@ -16,3 +16,18 @@ tar -xf level-2
 ls
 cd level-2
 ls
+cat README.txt
+find . -name level-3
+cd gBT5u0vLT5
+ls
+file level-3
+tar -xvf level-3.out
+ls
+cd level-3
+ls
+find . -name "*.txt"
+cat README.txt
+ls -li
+cat WfUKyzFeEv
+find . -size 73c
+cat m7lRDpRTUJ/xVMvVOKNW5
