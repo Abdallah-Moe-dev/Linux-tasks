@@ -1,0 +1,24 @@
+sudo adduser osc
+sudo addgroup osc_group
+sudo usermod -g osc_group osc
+sudo usermod -aG sudo osc
+su - osc
+mkdir "permission_practice"
+cd "permission_practice"
+touch puplic_file.txt private_file.txt executable_script.sh
+ls
+sudo chmod 666 puplic_file.txt
+sudo chmod 600 private_file.txt
+sudo chmod 750 executable_script.sh
+ls -l
+sudo chown abdallah_moe private_file.txt
+sudo chgrp osc_group private_file.txt
+ls -l
+sleep 100 &
+kill ||PID||
+vim
+ctrl + z
+pkill -9 vim
+ps
+sudo apt install neofetch
+sudo apt remove neofetch
