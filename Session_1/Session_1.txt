@@ -1,25 +1,32 @@
-mkdir "Abdallah Mohammed"
-cd "Abdallah Mohammed"
+mkdir "Abdallah Moe"
+cd "Abdallah Moe"
+
 mkdir Documents
 cd Documents
 touch file1.txt file2.txt file3.txt
 ls
+
+cd..
 touch .hidden_file
 ls -a
-nano file1.txt
-cat file1.txt
-cd .. <I am already in the Documents directory>
+
+nano Documents/file1.txt
+cat Documents/file1.txt
+#ctrl + s then ctrl + x
+
+cd Documents
+
 mkdir "-"
 cd ./-
-cd ../..
+
 cp -r Documents My_Documents
-ls
-cd Documents
+
 ls -a
-cat .hidden_file
-mv file1.txt file2.txt ~/"Abdallah Mohammed"/
-cd ..
+
+mv Documents/file2.txt .
+mv Documents/file3.txt .
 ls
+
 cd ..
-rm -r "Abdallah Mohammed"
+rm -r "Abdallah_Moe"
 ls
